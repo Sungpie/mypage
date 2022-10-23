@@ -1,0 +1,40 @@
+#login-form {
+  position: absolute;
+  width: 199%;
+  height: 100%;
+  top: 40%;
+  left: 80%;
+}
+
+#login-form input {
+  background: none;
+  border: none;
+  font-size: 30px;
+}
+
+#login-form input:nth-child(1) {
+  text-align: center;
+  border-bottom: 2px solid rgb(229, 190, 190, 0.8);
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+#login-form input:nth-child(2) {
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+#login-form input:nth-child(1):focus {
+  outline: none;
+}
+#login-form input:nth-child(2):hover {
+  background-color: rgb(229, 190, 190, 0.2);
+  border: 2px solid rgb(229, 190, 190, 0.5);
+}
+
+#greeting {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  color: white;
+  width: 40%;
+  text-align: center;
+}

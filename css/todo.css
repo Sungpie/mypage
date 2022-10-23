@@ -1,0 +1,56 @@
+#todo-form {
+  position: absolute;
+  top: 60%;
+  left: 89%;
+  width: 20%;
+}
+input::-webkit-input-placeholder {
+  color: var(--white);
+}
+
+#todo-form input {
+  background: none;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid white;
+  color: var(--white);
+  outline: none;
+}
+
+#todo-list {
+  position: absolute;
+  border: var(--gray);
+  width: 30%;
+  border-radius: 10px;
+  height: 20%;
+  overflow-y: auto;
+  letter-spacing: 2px;
+  top: 70%;
+  right: -90%;
+}
+
+li {
+  margin: 10px 0px;
+}
+
+#todo-list span {
+  border: 2px solid rgba(255, 254, 254, 0.3);
+  border-radius: 10px;
+  padding: 0px 5px;
+  color: var(--white);
+  margin-right: 5px;
+  line-height: 30px;
+}
+
+#todo-list button {
+  border-radius: 7px;
+  background-color: var(--gray);
+  transition: all 0s ease-in-out;
+  border: 2px solid rgba(255, 254, 254, 0.3);
+  color: var(--white);
+}
+#todo-list button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 254, 254, 0.7);
+}

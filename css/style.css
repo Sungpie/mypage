@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "background.css";
+@import "clock.css";
+@import "greetings.css";
+@import "quote.css";
+@import "todo.css";
+@import "variables.css";
+@import "weather.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}

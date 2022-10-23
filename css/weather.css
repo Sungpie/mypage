@@ -1,0 +1,12 @@
+#weather {
+  position: absolute;
+  color: var(--white);
+  left: 95%;
+  width: 30%;
+  top: 27%;
+  font-weight: 900;
+}
+
+#weather span {
+  display: block;
+}
